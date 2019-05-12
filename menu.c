@@ -50,7 +50,7 @@ void showDelete(List *list)
     int id;
     printf("Enter the mount id before which you want to delete:");
     scanf("%d", &id);
-    id--;
+
     DeletePrevious(id, list);
     puts("Item was deleted from library");
     printf("Write anything to continue: ");
